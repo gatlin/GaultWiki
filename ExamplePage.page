@@ -1,0 +1,32 @@
+---
+title: My Page Title
+...
+
+# Heading 1
+
+Some text. *Some italicized text.*
+
+A new paragraph!
+
+## Subheading
+
+**Some bolded text.**
+
+## Another subheading
+
+> I can quote people this way, just like in email.
+
+# Heading 2
+
+- A list item
+- Another
+- final one
+
+[A link to outside the wiki.](http://google.com)
+
+[ALinkToAWikiPage]()
+
+[Link to heading 1](#heading-1)
+
+*Note in that last link, "Heading 1" is lowercased and the spaces
+become dashes.*
