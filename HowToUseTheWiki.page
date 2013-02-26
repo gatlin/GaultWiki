@@ -10,9 +10,15 @@ On a given page, just select the "edit" button on the top horizontal menu.
 
 For accessibility, you edit pages in Markdown. There is a reference on the sidebar of the edit pages that I'll probably clean up a bit. In short though I put an example page at the end of this document.
 
+Markdown looks a lot like how many people format their emails (see the end of this page). It is intended that the plain Markdown text looks sort of like the page it will be converted to so it is readable no matter what. Don't think too hard about it.
+
 ## Description of changes
 
 I believe you must enter a short description of your changes before it will save. Frankly my Internet has been awful lately so hiccoughs might be on my end.
+
+## Table of Contents
+
+This is automatically generated based on headings. Don't even worry about it!
 
 # Creating pages
 
