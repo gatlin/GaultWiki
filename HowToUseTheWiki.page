@@ -64,3 +64,7 @@ For more examples, on the side of each page is a link to view "raw page source."
 
     *Note in that last link, "Heading 1" is lowercased and the spaces
     become dashes.*
+
+## What it looks like
+
+The [ExamplePage]() is what this example markup looks like when turned into a page.
