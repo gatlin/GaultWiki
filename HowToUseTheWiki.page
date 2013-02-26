@@ -1,0 +1,45 @@
+---
+title: How to use the wiki
+...
+
+# Editing pages
+
+On a given page, just select the "edit" button on the top horizontal menu.
+
+# Markup language
+
+For accessibility, you edit pages in Markdown. There is a reference on the sidebar of the edit pages that I'll probably clean up a bit. In short though I put an example page at the end of this email.
+
+# Creating pages
+
+You can create a page by just making up a title; it'll ask if you want to create a new page. For example, i want to make a page called McAllenTheDragonSlayer. 
+
+So I just visit [http://chea.niltag.net/McAllenTheDragonSlayer](http://chea.niltag.net/McAllenTheDragonSlayer) and the wiki will ask if you wish to create it.
+
+# Example page markup
+
+    ---
+    title: My Page Title
+    ...
+    
+    # Heading 1
+    
+    Some text. *Some italicized text.*
+
+    A new paragraph!
+
+    ## Subheading
+
+    **Some bolded text.**
+    
+    # Heading 2
+    
+    - A list item
+    - Another
+      - A sub list
+      - Sub list item 2
+    - final one
+    
+    [A link to outside the wiki.](http://google.com)
+
+    [ALinkToAWikiPage]()
