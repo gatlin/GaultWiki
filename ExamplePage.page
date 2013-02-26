@@ -24,9 +24,13 @@ A new paragraph!
 
 [A link to outside the wiki.](http://google.com)
 
+[Another way to write external links.][1]
+
 [ALinkToAWikiPage]()
 
 [Link to heading 1](#heading-1)
 
 *Note in that last link, "Heading 1" is lowercased and the spaces
 become dashes.*
+
+[1]: http://niltag.net "Optional link title"
