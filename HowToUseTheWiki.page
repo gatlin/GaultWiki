@@ -8,13 +8,13 @@ On a given page, just select the "edit" button on the top horizontal menu.
 
 ## Markup language
 
-For accessibility, you edit pages in [Markdown][1]. There is a reference on the sidebar of the edit pages that I'll probably clean up a bit. In short though I put an example page at the end of this document.
+For accessibility, you edit pages in [Markdown][1]. There is a reference on the sidebar of the edit pages illustrates a lot of common examples. There is also [an example page](#example-page-markup) in this document.
 
-[Markdown][1] looks a lot like how many people format their emails ([see the end of this page](#example-page-markup)). It is intended that the plain Markdown text looks sort of like the page it will be converted to so it is readable no matter what. Don't think too hard about it.
+[Markdown][1] looks a lot like how many people format their emails ([see the end of this page](#example-page-markup)). It is intended that the plain Markdown text looks sort of like the page it will be converted to. Don't think too hard about it.
 
 ## Description of changes
 
-I believe you must enter a short description of your changes before it will save. Frankly my Internet has been awful lately so hiccoughs might be on my end.
+You must enter a description of changes before the wiki will let you save. I'm saving you from yourself, I promise.
 
 ## Table of Contents
 
