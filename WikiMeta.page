@@ -1,0 +1,66 @@
+---
+title: Wiki Meta
+...
+
+This page has information on the wiki itself, of technical and historical value.
+
+# Who set this up / who to blame
+
+This wiki was set up by [Gatlin Johnson][shameless]. You can email him at <rokenrol+coopwiki@gmail.com> about anything wiki related, any time.
+
+# Todo
+
+See [WikiTodo]().
+
+# The stack
+
+## Gitit
+
+This wiki runs on the fantastic [Gitit][gitit] wiki application. Gitit was chosen primarily because of what it *doesn't* have: it lets you create, edit, and discuss pages; upload files; and customize the look and feel through template files and your own styling information. Tah-dah.
+
+## Git
+
+One neat thing about [Gitit][gitit] is that it stores all wiki data in a git repository. Every time a page is edited, it is committed into the repository. Thanks to magic, the wiki is set up to push to a [backup on GitHub][backup]. This also means re-deployment of the wiki is very simple (see [installing and running the wiki](#how-to-install-and-run-the-wiki)).
+
+## The server
+
+This wiki is currently hosted on a bottom-tier [Linode][linode] server running Ubuntu 12.04 LTS. The wiki itself is behind an [nginx][nginx] proxy so with a little bit of dancing it is possible to upgrade the server without any downtime.
+
+Note that this wiki can be hosted on any system that can run [Gitit][gitit] so we have a lot of options, not just this particular operating system.
+
+# How to install and run the wiki
+
+This wiki might eventually need to be moved elsewhere. Fortunately, anyone with a little knowledge of git and bash can handle the migration!
+
+## Steps
+
+1. Make sure [git][git] and [gitit][gitit] are installed on your machine.
+2. Pick a directory that you want to host the wiki out of (preferably as an unprivileged user). We'll call it `$DIR`.
+3. `cd $DIR && git clone git://github.com/gatlin/GaultWiki`. So now you'll have `$DIR/GaultWiki`.
+4. `cp GaultWiki/sample.conf myconf.conf` and then edit the file (see [Configuration](#configuration)).
+5. In `$DIR`, run `gitit -f myconf.conf`.
+
+**Success!** You might want to run that last step inside [GNU screen][screen] or [tmux][tmux], or append an `&` to run it in the background.
+
+## Configuration
+
+There are three configuration fields you care about:
+
+- `port`
+- `static-dir`
+- `templates-dir`
+
+The `port` field just tells the server which port to listen on. Simple stuff.
+
+The `static-dir` field points to a directory which contains any JavaScript, CSS, or image assets that the site might need (say, for its theme). The [public copy][backup] of the wiki already contains a `static` folder. If you followed the [steps above](#steps), then simply set `static-dir` to `GaultWiki/static`.
+
+The `templates-dir` field points to a directory containing some page templating files. As with `static`, there is already a `templates` directory under `GaultWiki`.
+
+[shameless]: http://niltag.net "Gatlin Johnson"
+[gitit]: http://gitit.net "Gitit wiki"
+[linode]: http://linode.com "Linode"
+[nginx]: http://nginx.org/ "nginx"
+[git]: http://git-scm.org "git version control system"
+[backup]: https://github.com/gatlin/GaultWiki "The public wiki backup repository"
+[tmux]: http://tmux.sourceforge.net "tmux terminal multiplexer"
+[screen]: http://www.gnu.org/software/screen/ "GNU Screen"
