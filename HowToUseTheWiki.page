@@ -10,7 +10,7 @@ On a given page, just select the "edit" button on the top horizontal menu.
 
 For accessibility, you edit pages in Markdown. There is a reference on the sidebar of the edit pages that I'll probably clean up a bit. In short though I put an example page at the end of this document.
 
-Markdown looks a lot like how many people format their emails ([see the end of this page](#Example page markup)). It is intended that the plain Markdown text looks sort of like the page it will be converted to so it is readable no matter what. Don't think too hard about it.
+Markdown looks a lot like how many people format their emails ([see the end of this page](#example-page-markup)). It is intended that the plain Markdown text looks sort of like the page it will be converted to so it is readable no matter what. Don't think too hard about it.
 
 ## Description of changes
 
@@ -60,4 +60,7 @@ For more examples, on the side of each page is a link to view "raw page source."
 
     [ALinkToAWikiPage]()
 
-    [Link to heading 1](#Heading 1)
+    [Link to heading 1](#heading-1)
+
+    *Note in that last link, "Heading 1" is lowercased and the spaces
+    become dashes.*
