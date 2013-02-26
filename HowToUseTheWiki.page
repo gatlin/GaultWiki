@@ -31,13 +31,15 @@ So I just visit [http://chea.niltag.net/McAllenTheDragonSlayer](http://chea.nilt
     ## Subheading
 
     **Some bolded text.**
+
+    ## Another subheading
+
+    > I can quote people this way, just like in email.
     
     # Heading 2
     
     - A list item
     - Another
-      - A sub list
-      - Sub list item 2
     - final one
     
     [A link to outside the wiki.](http://google.com)
