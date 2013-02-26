@@ -22,6 +22,10 @@ So I just visit [http://chea.niltag.net/McAllenTheDragonSlayer](http://chea.nilt
 
 # Example page markup
 
+Below is example markup. To display unformatted text this way, each line is indented 4 spaces.
+
+For more examples, on the side of each page is a link to view "raw page source." It'll show you exactly what was typed up to produce that page. Markdown is very intuitive.
+
     ---
     title: My Page Title
     ...
