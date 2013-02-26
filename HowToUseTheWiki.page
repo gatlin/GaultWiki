@@ -68,3 +68,13 @@ For more examples, on the side of each page is a link to view "raw page source."
 ## What it looks like
 
 The [ExamplePage]() is what this example markup looks like when turned into a page.
+
+# Discussion pages
+
+If you've used Wikipedia or other wikis, you know usually pages have a "Talk page" or similar. This wiki is no different.
+
+Take any page URL - say, http://chea.niltag.net/McAllenTheDragonSlayer - and put an @ sign in it like so:
+
+    http://chea.niltag.net/@McAllenTheDragonSlayer
+
+And you are now at the "Discussion page." To edit it, first *go* to the Discussion page using the link at the top and *then* select "edit" from there. This page has a Discussion page - try it out!
