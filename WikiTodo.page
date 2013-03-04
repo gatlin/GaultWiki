@@ -8,5 +8,6 @@ This wiki itself needs various things done to it to make it more useful and easy
 - ~~Wiki data should be backed up to a public git repo.~~
 - Export formats should all work :)
 - Should support OAuth and OpenID for authentication.
+- A plugin so that certain kinds of pages create anchors to specific sections (useful in, say, policy documents)
 - Responsive theme.
-- Explanation of how I set up the wiki as reference.
+- ~~Explanation of how I set up the wiki as reference.~~ *This exists at [WikiMeta]()*
