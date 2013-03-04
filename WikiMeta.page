@@ -42,6 +42,14 @@ This wiki might eventually need to be moved elsewhere. Fortunately, anyone with 
 
 **Success!** You might want to run that last step inside [GNU screen][screen] or [tmux][tmux], or append an `&` to run it in the background.
 
+## Users
+
+Gitit stores user credentials in a file called `gitit-users` in the same directory you started it from (if you followed the steps above, then the file is `$DIR/gitit-users`). The passwords are stored hashed, so nothing is stored in cleartext and nobody casually snooping around the files will be able to learn your password.
+
+*However*, it is theoretically possible to take these hashes and crack them (if you are the NSA) so in the interest of providing the absolute best security that I can this file is **not** stored in the git repository.
+
+Instead, I (Gatlin) have it backed up safely and periodically. If you need to re-deploy the system, email me at <rokenrol@gmail.com> and I can get it to you securely. Just move it to `$DIR`, maybe restart the wiki, and you'll have accounts back on line.
+
 ## Configuration
 
 There are three configuration fields you care about:
