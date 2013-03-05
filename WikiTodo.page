@@ -6,10 +6,11 @@ This wiki itself needs various things done to it to make it more useful and easy
 
 - ~~More useful edit sidebar cheat sheet. Lots of space wasted on code formatting.~~
 - ~~Wiki data should be backed up to a public git repo.~~
-- Export formats should all work :)
-- Should support OAuth and OpenID for authentication.
-- Also for authentication: Mozilla Persona
+- ~~Explanation of how I set up the wiki as reference.~~ *This exists at [WikiMeta]()*
 - Plugin: Turn links to google maps into embedded maps.
+- Enhancement: Edit only specific sections.
 - Plugin: certain kinds of pages create anchors to specific sections (useful in, say, policy documents)
 - Responsive theme.
-- ~~Explanation of how I set up the wiki as reference.~~ *This exists at [WikiMeta]()*
+- Should support OAuth and OpenID for authentication.
+- Export formats should all work :)
+- Also for authentication: Mozilla Persona
