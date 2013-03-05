@@ -6,7 +6,7 @@ title: My Page Title
 
 Some text. *Some italicized text.*
 
-A new paragraph!
+A new paragraph! And a footnote[^1].
 
 ## Subheading
 
@@ -63,3 +63,5 @@ become dashes.*
 
 [1]: http://niltag.net "Optional link title"
 [keyword]: http://gitit.net "See?"
+
+[^1]: Here's the footnote!
