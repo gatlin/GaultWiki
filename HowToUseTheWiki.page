@@ -39,15 +39,15 @@ For more examples, on the side of each page is a link to view "raw page source."
     # Heading 1
     
     Some text. *Some italicized text.*
-
-    A new paragraph!
-
+    
+    A new paragraph! And a footnote[^1].
+    
     ## Subheading
-
+    
     **Some bolded text.**
-
+    
     ## Another subheading
-
+    
     > I can quote people this way, just like in email.
     
     # Heading 2
@@ -55,48 +55,50 @@ For more examples, on the side of each page is a link to view "raw page source."
     - A list item
     - Another
     - final one
-
+    
     # Heading 3 (see the pattern?)
-
+    
     It is also easy to make tables!
-
+    
     ## Simple table
-
+    
     Column 1   Column 2      Column 3
     --------   ------------  --------
     Value 1    Value 2       Value 3
     Value 4    Value 5       Value 6
-
+    
     ## More complex one
-
+    
     -------------------------------------------------------------------
     Left aligned heading     Right aligned heading   Centered heading
     ---------------------- -----------------------  ------------------
     Note the extra dashes    Note the extra dashes   Same dash number
     to the right.            to the left             either side!
-
+    
     Note that the markup     for tables looks like   ... a table :)
     -------------------------------------------------------------------
-
+    
     And below this is a horizontal rule:
-
+    
     ***
     
     [A link to outside the wiki.](http://google.com)
-
+    
     [Another way to write external links.][1]
-
+    
     [Reference Links don't have to use numebers.][keyword]
-
+    
     [ALinkToAWikiPage]()
-
+    
     [Link to heading 1](#heading-1)
-
+    
     *Note in that last link, "Heading 1" is lowercased and the spaces
     become dashes.*
-
+    
     [1]: http://niltag.net "Optional link title"
     [keyword]: http://gitit.net "See?"
+    
+    [^1]: Here's the footnote!
 
 ## What it looks like
 
