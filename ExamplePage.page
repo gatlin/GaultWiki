@@ -22,9 +22,37 @@ A new paragraph!
 - Another
 - final one
 
+# Heading 3 (see the pattern?)
+
+It is also easy to make tables!
+
+## Simple table
+
+Column 1   Column 2      Column 3
+--------   ------------  --------
+Value 1    Value 2       Value 3
+Value 4    Value 5       Value 6
+
+## More complex one
+
+-------------------------------------------------------------------
+Left aligned heading     Right aligned heading   Centered heading
+---------------------- -----------------------  ------------------
+Note the extra dashes    Note the extra dashes   Same dash number
+to the right.            to the left             either side!
+
+Note that the markup     for tables looks like   ... a table :)
+-------------------------------------------------------------------
+
+And below this is a horizontal rule:
+
+***
+
 [A link to outside the wiki.](http://google.com)
 
 [Another way to write external links.][1]
+
+[Reference Links don't have to use numebers.][keyword]
 
 [ALinkToAWikiPage]()
 
@@ -34,3 +62,4 @@ A new paragraph!
 become dashes.*
 
 [1]: http://niltag.net "Optional link title"
+[keyword]: http://gitit.net "See?"
