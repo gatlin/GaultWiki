@@ -1,8 +1,12 @@
 @import url("reset-fonts-grids.css");
 @import url("hk-pyg.css"); /* for syntax highlighting */
 
-html { background: #f9f9f9; color: black; }
-body { margin: 10px; font-family: verdana; }
+/*html { background: #f9f9f9; color: black; } */
+html {
+  background: url(/img/45degreee_fabric.png) repeat 0 0;
+  color: black;
+}
+body { margin: 10px; font-family: verdana;}
 fieldset { border: 1px solid #ccc; padding: 1em; }
 legend { font-weight: bold; margin-left: 1em; padding: 4px; }
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
@@ -107,7 +111,7 @@ sup + sup { margin-left: 2px; }
 #sidebar { padding-top: 24px; }
 #footer { padding: 1em; color: #888; text-align: center; font-size: 93%; }
 
-#content { border: 1px solid #ccc; background-color: #fff; padding: 1em; border-radius: 2px; box-shadow: 0 0 5px #ccc; }
+#content { border: 1px solid #ccc; background-color: #fff; padding: 1em; border-radius: 2px; box-shadow: 0 0 10px #ccc; }
 #content p, #content pre, #content li { line-height: 140%; }
 
 #sidebar fieldset { background-color: none; border: none; margin-bottom: 1em; padding: 0; }
