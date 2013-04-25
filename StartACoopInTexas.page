@@ -18,11 +18,9 @@ The good news is that this only has to be figured out once, and it has! You can 
 
 Please keep in mind: while we will spend a fair amount of time discussing legal bullshit, the most important things in the entire process are your community and the people who comprise it. Everything else is a necessary evil to protect them from the awful Minotaur at the center of this legal labyrinthe. Just follow my rope.
 
-# Part I: Legal Crap
-
 First, let's make sure we know what we're talking about:
 
-## Definitions
+# Definitions
 
 Non-profit
 :    A type of corporation in Texas which is not created solely to profit its owners.
@@ -45,7 +43,7 @@ HOLY BORING BATMAN. Let's take this one step at a time.
 
 A cooperative is a non-profit organization which is owned and run by its members. The members pay *dues* to the organization, which the organization uses to provide services for its members. These dues are the organization's income. At the end of the year, any of this income which is not spent is retained by the organization; that's called *equity*. In a *group equity* housing organization, this equity is owned by the organization, not the individual members.
 
-### Why?
+## Why?
 
 1. Liability.
   This setup protects the members of the organization from all kinds of hideous liability. In Texas, if someone is injured on your
@@ -57,11 +55,11 @@ property you are liable for damages in court. However if you don't own the prope
 3. Transparency and community.
   A group-equity cooperative is cooperative in the truest sense: the members pool all their resources together and jointly control what is done with this equity. Nobody is paid anything; rather, the members must use this equity to benefit each other (eg, lowering rent, purchasing better food, expanding into new property, etc).
 
-## How to start a tax-exempt non-profit in the state of Texas
+# How to start a tax-exempt non-profit in the state of Texas
 
 This is a fantastic resource from the Secretary of State Website: [Forming a Nonprofit Tax-Exempt Corporation in Texas][tx501c3]. It has lots of good information.
 
-### Safe harbor
+## Safe harbor
 
 Additionally you can be automatically-approved for tax-exempt status when filing with the IRS if a certain percentage of your members meet certain income requirements. This is called "safe-harbor" and it can fast-track your application. [Here are the safe harbor rules in PDF format](/safe harbor rule.pdf). The relevant portion
 
